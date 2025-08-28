@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L'Éclat Redéfini : Collections Exclusives</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f2f5; /* Gris clair élégant */
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+        }
+        .header-gradient {
+            background-image: linear-gradient(to right, #6a0572, #ab1877); /* Dégradé violet-rose profond */
+        }
+        .text-glow {
+            text-shadow: 0 0 8px rgba(255, 255, 255, 0.7), 0 0 12px rgba(255, 255, 255, 0.5);
+        }
+        .card {
+            background-color: white;
+            border-radius: 1rem;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+            overflow: hidden;
+        }
+        .card:hover {
+            transform: translateY(-8px) scale(1.03);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+        }
+        .button-main {
+            background-image: linear-gradient(to right, #ab1877, #e056fd); /* Dégradé rose-violet clair */
+            color: white;
+            padding: 1.2rem 3rem;
+            border-radius: 9999px;
+            font-weight: 700;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+            box-shadow: 0 5px 15px rgba(171, 24, 119, 0.4);
+        }
+        .button-main:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(171, 24, 119, 0.6);
+        }
+        .section-intro {
+            background-color: #ffffff;
+            border-radius: 1.5rem;
+            padding: 3rem;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+        }
+        .img-gallery img {
+            object-fit: cover;
+            width: 100%;
+            height: 350px; /* Taille fixe pour l'homogénéité */
+        }
+    </style>
+</head>
+<body class="flex flex-col min-h-screen">
+
+    <header class="header-gradient py-8 shadow-xl">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-6xl font-extrabold text-white mb-4 leading-tight text-glow">
+                MartialDesign
+            </h1>
+            <p class="text-2xl text-white opacity-90">
+                L'art de la mode, réinventé pour vous.
+            </p>
+        </div>
+    </header>
+
+    <main class="flex-grow container mx-auto px-4 py-16">
+        <section class="section-intro text-center mb-16">
+            <h2 class="text-5xl font-bold text-gray-800 mb-6">Découvrez l'Élégance Suprême</h2>
+            <p class="text-xl text-gray-600 leading-relaxed max-w-3xl mx-auto">
+                Chaque pièce de notre collection est une célébration de la féminité et du design exceptionnel.
+                Explorez des créations uniques qui vous feront briller en toute occasion.
+            </p>
+        </section>
+
+        <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mb-16 img-gallery">
+            <!-- Robe sirène verte olive -->
+            <div class="card">
+                <img src="https://martialdesign-art.github.io/pub-mode-v2/images/robe%20verte%20dor%C3%A9e.jpg" alt="" class="rounded-t-xl">
+                <div class="p-6">
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-2">Majesté Émeraude</h3>
+                    <p class="text-gray-700">Une coupe sirène audacieuse pour une présence inoubliable.</p>
+                </div>
+            </div>
+
+            <!-- Robe dorée asymétrique brodée -->
+            <div class="card">
+                <img src="https://martialdesign-art.github.io/pub-mode-v2/images/robe%20dor%C3%A9e.jpg" alt="" class="rounded-t-xl">
+                <div class="p-6">
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-2">Éclat D'or Royal</h3>
+                    <p class="text-gray-700">L'opulence rencontre la modernité dans un design unique.</p>
+                </div>
+            </div>
+
+            <!-- Robe de soirée argentée scintillante -->
+            <div class="card">
+                <img src="https://martialdesign-art.github.io/pub-mode-v2/images/robe%20argentee.jpg" alt="" class="rounded-t-xl">
+                <div class="p-6">
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-2">Rêve Argenté Pailleté</h3>
+                    <p class="text-gray-700">Captivez les regards avec des milliers de reflets scintillants.</p>
+                </div>
+            </div>
+
+            <!-- Robe de mariée sirène blanche avec traîne volumineuse -->
+            <div class="card">
+                <img src="https://martialdesign-art.github.io/pub-mode-v2/images/robe%20mari%C3%A9e%20sir%C3%A8ne.jpg" alt="" class="rounded-t-xl">
+                <div class="p-6">
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-2">Mariée d'Exception</h3>
+                    <p class="text-gray-700">La robe de vos rêves, pour un jour inoubliable.</p>
+                </div>
+            </div>
+
+            <!-- Robe de soirée bleu roi asymétrique avec traîne drapée - IMAGE MANQUANTE, UTILISATION D'UN PLACEHOLDER -->
+            <div class="card">
+                <img src="https://placehold.co/800x600/4169E1/ffffff?text=Robe+Bleu+Roi+Manquante" alt="" class="rounded-t-xl">
+                <div class="p-6">
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-2">Nuit de Saphir</h3>
+                    <p class="text-gray-700">Une couleur vibrante et une coupe majestueuse pour vos événements.</p>
+                </div>
+            </div>
+
+            <!-- Robe de soirée rose poudré avec manches florales -->
+            <div class="card">
+                <img src="https://martialdesign-art.github.io/pub-mode-v2/images/robe%20rose%20poudre.jpg" alt="" class="rounded-t-xl">
+                <div class="p-6">
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-2">Féérie Rosée</h3>
+                    <p class="text-gray-700">Des détails floraux exquis pour une allure romantique et chic.</p>
+                </div>
+            </div>
+
+            <!-- Robe longue fuchsia plissée avec col blazer -->
+            <div class="card">
+                <img src="https://martialdesign-art.github.io/pub-mode-v2/images/robe%20fuchsia.jpg" alt="" class="rounded-t-xl">
+                <div class="p-6">
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-2">Audace Fuchsia</h3>
+                    <p class="text-gray-700">Le plissé moderne pour un style qui ne passe pas inaperçu.</p>
+                </div>
+            </div>
+
+            <!-- Robe de mariée sirène blanche simple mais élégante -->
+            <div class="card">
+                <img src="https://martialdesign-art.github.io/pub-mode-v2/images/robe%20de%20mari%C3%A9e%20simple.jpg" alt="" class="rounded-t-xl">
+                <div class="p-6">
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-2">Simplicité Divine</h3>
+                    <p class="text-gray-700">L'élégance intemporelle pour un mariage mémorable.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="text-center py-12 bg-white rounded-2xl shadow-lg">
+            <h2 class="text-4xl font-bold text-gray-800 mb-6">Prêt(e) à Captiver Votre Clientèle ?</h2>
+            <p class="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
+                Collaborons pour créer des collections qui définissent le luxe et l'innovation.
+                Votre vision, notre expertise, pour des créations inoubliables.
+            </p>
+            <a href="#" class="button-main inline-block">
+                Contactez MartialDesign
+            </a>
+        </section>
+    </main>
+
+    <footer class="bg-gray-900 text-white py-8 mt-16 shadow-inner">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2025 MartialDesign. Tous droits réservés.</p>
+            <p class="mt-2 text-sm opacity-75">Conçu avec passion par l'IA de MartialDesign.</p>
+        </div>
+    </footer>
+</body>
+</html>
